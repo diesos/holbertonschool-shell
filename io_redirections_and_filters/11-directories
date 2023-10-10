@@ -1,3 +1,2 @@
 #!/bin/bash
-# toruveune technique pour exclure working directory
 find . -type d -not -path "./" | wc -l  
