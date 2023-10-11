@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -n $'\x12\x34' | xxd -p
+echo "$((2#${BINARY}))"
