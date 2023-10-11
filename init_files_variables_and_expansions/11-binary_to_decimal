@@ -1,2 +1,2 @@
 #!/bin/bash
-printf '%x\n' "$((BINARY))"
+echo -n $'\x12\x34' | xxd -p
